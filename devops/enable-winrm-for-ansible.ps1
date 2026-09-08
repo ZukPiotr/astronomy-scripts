@@ -18,7 +18,7 @@ $ErrorActionPreference = 'Stop'
 
 # --- adjust these two -------------------------------------------------------
 $AnsibleUser = 'asaroot'                     # local admin account Ansible uses
-$ControlNode = '192.168.7.48'                   # ansible-oca.oca.lan - PUT THE REAL IP HERE
+$ControlNode = 'ansible-oca.oca.lan'                   # ansible-oca.oca.lan - PUT THE REAL IP HERE
 # ---------------------------------------------------------------------------
 
 Write-Host "1/6 Enabling PowerShell remoting / WinRM service..." -ForegroundColor Cyan
